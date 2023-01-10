@@ -115,8 +115,7 @@ const redark = {
   },
 };
 
-const themeAsString = `
-const redark = {
+const themeAsString = `{
   codeBlock: {
     backgroundColor: '#18181b',
   },
@@ -231,8 +230,7 @@ const redark = {
       };
     }
   },
-};
-`;
+}`;
 
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { theme: redark, themeAsString };
