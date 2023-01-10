@@ -1,0 +1,29 @@
+{
+  "name": "redark",
+  "version": "1.0.0",
+  "description": "A dark theme for Redoc",
+  "main": "redark.js",
+  "prettier": "@dilanx/config/prettier",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilanx/redark.git"
+  },
+  "keywords": [
+    "dark",
+    "theme",
+    "redoc",
+    "api",
+    "swagger"
+  ],
+  "author": "Dilan Nair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dilanx/redark/issues"
+  },
+  "homepage": "https://github.com/dilanx/redark#readme",
+  "devDependencies": {
+    "@dilanx/config": "^1.1.2",
+    "prettier": "^2.8.2"
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>redark example</title>
+    <link rel="stylesheet" href="./redark.css" />
+  </head>
+  <body>
+    <div id="redoc-container"></div>
+    <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
+    <script src="./redark.js"></script>
+    <script>
+      Redoc.init(
+        'http://petstore.swagger.io/v2/swagger.json',
+        {
+          theme: redark,
+        },
+        document.getElementById('redoc-container')
+      );
+    </script>
+  </body>
+</html>
