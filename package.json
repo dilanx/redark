@@ -1,5 +1,5 @@
 {
-  "name": "redark",
+  "name": "redark-theme",
   "version": "1.0.0",
   "description": "A dark theme for Redoc",
   "main": "redark.js",

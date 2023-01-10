@@ -9,15 +9,15 @@ A dark theme for [Redoc](https://github.com/Redocly/redoc)
 First, install from npm:
 
 ```
-$ npm i redark
+$ npm i redark-theme
 ```
 
 Then, add the script and stylesheet from `node_modules` to your HTML:
 
 ```html
-<link rel="stylesheet" href="node_modules/redark/redark.css" />
+<link rel="stylesheet" href="node_modules/redark-theme/redark.css" />
 
-<script src="node_modules/redark/redark.js"></script>
+<script src="node_modules/redark-theme/redark.js"></script>
 ```
 
 Finally, initialize Redoc with the `redark` theme:
@@ -39,7 +39,7 @@ Finally, initialize Redoc with the `redark` theme:
 You can also access the theme object in JavaScript:
 
 ```js
-import { theme } from 'redark';
+import { theme } from 'redark-theme';
 
 // use with the Redoc React component or something
 ```
