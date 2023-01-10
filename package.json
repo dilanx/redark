@@ -1,6 +1,6 @@
 {
   "name": "redark-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dark theme for Redoc",
   "main": "redark.js",
   "prettier": "@dilanx/config/prettier",
