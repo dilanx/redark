@@ -1,9 +1,14 @@
 {
   "name": "redark-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dark theme for Redoc",
   "main": "redark.js",
   "prettier": "@dilanx/config/prettier",
+  "files": [
+    "README.md",
+    "redark.js",
+    "redark.css"
+  ],
   "scripts": {},
   "repository": {
     "type": "git",
