@@ -2,7 +2,7 @@
 
 A dark theme for [Redoc](https://github.com/Redocly/redoc)
 
-[Check out this demo!](https://docs.dilanxd.com/redark)
+[Check out this demo!](https://pages.dilanxd.com/redark)
 
 ## Installation
 
